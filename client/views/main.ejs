@@ -1,0 +1,13 @@
+<html>
+    <head>
+     <title>task list</title>
+    </head>
+    <body>
+      <h2>task list</h2>
+      <% for (var i in tasks) { %>
+        <h3>Title: <%= tasks[i].title %> </h3>
+        <h3>Description: <%= tasks[i].description %> </h3>
+        <hr>
+      <% } %>
+    </body>
+    </html>
